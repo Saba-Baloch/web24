@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      /* * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      } */
+      body {
+        background-color: rgb(80, 80, 80);
+        min-width: 100vw;
+        min-height: 100vh;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        position: relative;
+        /* font-size: 40px; */
+      }
+      .top {
+        /* border: solid red 4px; */
+        min-width: 400px;
+        min-height: 300px;
+        position: relative;
+        font-family: 'Times New Roman', Times, serif;
+        /* font-style: italic; */
+       
+      }
+      .navi {
+        /* display: flex;
+        justify-content:end;
+        align-items: end; */
+        gap: 10px;
+        font-size: 150%;
+        /* margin: 20px 10px; */
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        top: 31px;
+    left: 1129px;
+}
+      
+      /* button {
+        font-size: 120%;
+        background-color: rgba(122, 122, 126, 0.619);
+        color: beige;
+        font-family: "Times New Roman", Times, serif;
+        cursor: pointer;
+      
+      } */
+      button{
+        border: none;
+        background-color:gray;
+        color: white;
+        font-size: 20px;
+      }
+
+      .center{
+           
+           flex-basis: 50%;
+       }
+       .center .googleText{
+           font-size: 100px;
+           text-align: center;
+           color: white;
+           margin-bottom: 50px;
+           
+       }
+       .center .searchBar{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           gap: 10px;
+           background-color: white;
+           border-radius: 30px;
+           padding-block: 10px;
+           
+       }
+       .center .searchBar img{
+           cursor: pointer;
+       }
+       .center .searchBar input{
+           font-size: 20px;
+           border: none;
+           outline: none;
+           flex-basis: 50%;
+       }
+        
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="top">
+      <nav class="navi">
+          Gmail
+          images
+          <button>sign up</button>
+
+        <img
+          src="images/downlod.png"
+          alt=""
+          style="width: 2%; cursor: pointer"
+        />
+      </nav>
+    </div>
+    <div class="center">
+        <div class="googleText">
+            Google
+        </div>
+        <div class="searchBar">
+            <img src="images/search.png" alt="" width="40px">
+            <input type="text" placeholder="Search Here.....">
+            <img src="images/mic.png" alt="" width="40px">
+            <img src="images/camera.png" alt="" width="30px">
+        </div>
+    </div>
+  </body>
+</html>
